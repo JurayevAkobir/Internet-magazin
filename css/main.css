@@ -54,6 +54,87 @@ a:hover {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
+}
+
+.button {
+  display: flex;
+  width: 222px;
+  height: 44px;
+  padding: 12px 29px 13px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: linear-gradient(267deg, #3EB40C 0%, #345F99 100%);
+  color: #fff;
+  text-align: center;
+  line-height: 24px;
+}
+
+.header {
+  padding: 40px 0;
+}
+.header .nav {
+  flex-wrap: wrap;
+  align-items: center;
+}
+.header .nav .header-logo_texts {
+  align-items: center;
+}
+.header .nav .header-logo_texts .header-texts {
+  margin-left: 20px;
+}
+.header .nav .header-logo_texts .header-texts h4 {
+  color: #369E0F;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 30px;
+  letter-spacing: 10.08px;
+}
+.header .nav .header-logo_texts .header-texts h5 {
+  margin-top: 12px;
+  margin-bottom: 17px;
+  color: #345F99;
+  font-weight: 600;
+}
+.header .nav .header-logo_texts .header-texts p {
+  color: #345F99;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.56px;
+}
+.header .nav .header-links_email {
+  margin-left: 100px;
+}
+.header .nav .header-links_email .header-links a {
+  color: #345F99;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+.header .nav .header-links_email .header-links .links {
+  margin-top: 23px;
+}
+.header .nav .header-links_email .header-links .links .link {
+  margin-right: 5px;
+}
+.header .nav .header-links_email .header-email a {
+  color: #51C444;
+  font-size: 18px;
+  line-height: 27px;
+}
+.header .nav .photograph-assessment a {
+  margin-top: 12px;
+  display: block;
+  color: #51C444;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
