@@ -3,8 +3,6 @@
 
 .button {
     display: flex;
-    width: 222px;
-    height: 44px;
     padding: 12px 29px 13px 30px;
     justify-content: center;
     align-items: center;
@@ -13,4 +11,53 @@
     color: variables.$white;
     text-align: center;
     line-height: 24px;
+}
+
+.button_two {
+    display: flex;
+    padding: 5px 29px 5px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: variables.$blue;
+    
+    color: variables.$white;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.button_three {
+    display: flex;
+    padding: 5px 29px 5px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: variables.$green;
+
+    color:  variables.$white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.button_four {
+    padding: 12px 46px 13px 45px;
+    border-radius: 30px;
+    background: #2A5391;
+
+    color: variables.$white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button_five {
+    padding: 12px 50px 13px 51px;
+    border-radius: 30px;
+    border: 2px solid variables.$green;
+
+    color: variables.$green;
+    font-size: 16px;
+    font-weight: 400;
 }

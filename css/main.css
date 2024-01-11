@@ -60,8 +60,6 @@ body {
 
 .button {
   display: flex;
-  width: 222px;
-  height: 44px;
   padding: 12px 29px 13px 30px;
   justify-content: center;
   align-items: center;
@@ -72,59 +70,118 @@ body {
   line-height: 24px;
 }
 
-.header {
+.button_two {
+  display: flex;
+  padding: 5px 29px 5px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: #345F99;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.button_three {
+  display: flex;
+  padding: 5px 29px 5px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: #3EB40C;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.button_four {
+  padding: 12px 46px 13px 45px;
+  border-radius: 30px;
+  background: #2A5391;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.button_five {
+  padding: 12px 50px 13px 51px;
+  border-radius: 30px;
+  border: 2px solid #3EB40C;
+  color: #3EB40C;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media (min-width: 1140px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1170px !important;
+  }
+}
+.wrapper .header {
   padding: 40px 0;
 }
-.header .nav {
+.wrapper .header .nav {
   flex-wrap: wrap;
   align-items: center;
 }
-.header .nav .header-logo_texts {
+.wrapper .header .nav .header-logo_texts {
   align-items: center;
 }
-.header .nav .header-logo_texts .header-texts {
+.wrapper .header .nav .header-logo_texts .header-texts {
   margin-left: 20px;
 }
-.header .nav .header-logo_texts .header-texts h4 {
+.wrapper .header .nav .header-logo_texts .header-texts h4 {
   color: #369E0F;
   font-size: 18px;
   font-weight: 900;
   line-height: 30px;
   letter-spacing: 10.08px;
 }
-.header .nav .header-logo_texts .header-texts h5 {
-  margin-top: 12px;
-  margin-bottom: 17px;
+.wrapper .header .nav .header-logo_texts .header-texts h5 {
+  margin-top: 8px;
+  margin-bottom: 15px;
   color: #345F99;
+  font-size: 14px;
   font-weight: 600;
 }
-.header .nav .header-logo_texts .header-texts p {
+.wrapper .header .nav .header-logo_texts .header-texts p {
   color: #345F99;
   font-size: 14px;
   line-height: 19px;
   letter-spacing: -0.56px;
 }
-.header .nav .header-links_email {
+.wrapper .header .nav .header-links_email {
   margin-left: 100px;
 }
-.header .nav .header-links_email .header-links a {
+.wrapper .header .nav .header-links_email .header-links a {
   color: #345F99;
   font-size: 18px;
   font-weight: 500;
   line-height: 27px;
 }
-.header .nav .header-links_email .header-links .links {
+.wrapper .header .nav .header-links_email .header-links .links {
   margin-top: 23px;
 }
-.header .nav .header-links_email .header-links .links .link {
-  margin-right: 5px;
+.wrapper .header .nav .header-links_email .header-links .links .link {
+  margin-right: 3px;
 }
-.header .nav .header-links_email .header-email a {
+.wrapper .header .nav .header-links_email .header-email a {
   color: #51C444;
   font-size: 18px;
   line-height: 27px;
+  margin-right: 78px;
 }
-.header .nav .photograph-assessment a {
+.wrapper .header .nav .photograph-assessment {
+  margin-left: 70px;
+}
+.wrapper .header .nav .photograph-assessment a {
   margin-top: 12px;
   display: block;
   color: #51C444;
@@ -133,8 +190,131 @@ body {
   line-height: 24px;
   text-decoration-line: underline;
 }
+.wrapper .main .btns_box {
+  padding: 24px 0;
+  background: rgba(204, 223, 236, 0.83);
+}
+.wrapper .main .btns_box .buttons_ {
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.wrapper .main .btns_box .buttons_ img {
+  margin-left: 10px;
+}
+.wrapper .main .btns_box .buttons_ .last-btn {
+  padding: 3px 13 px;
+  border-radius: 50%;
+}
+.wrapper .main .sale_of_scrap {
+  margin-bottom: 71px;
+}
+.wrapper .main .sale_of_scrap .glavniy__ {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.wrapper .main .sale_of_scrap .glavniy__ .blue_a {
+  color: #345F99;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+.wrapper .main .sale_of_scrap .glavniy__ .green_a {
+  margin-left: 15px;
+  color: #3CA722;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+.wrapper .main .sale_of_scrap .title {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper .main .sale_of_scrap .title h2 {
+  color: #345F99;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 60px;
+}
+.wrapper .main .sale_of_scrap .register_box {
+  margin-top: 66px;
+  padding: 30px;
+  align-items: center;
+  border-radius: 15px;
+  background: #D4E5EF;
+}
+.wrapper .main .sale_of_scrap .register_box p {
+  color: #023887;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 41px;
+  margin-right: 45px;
+}
+.wrapper .main .sale_of_scrap .register_box .button_four {
+  margin-left: 127px;
+  margin-right: 26px;
+}
+.wrapper .main .sale_of_scrap .three_boxes {
+  margin-top: 51px;
+  display: flex;
+  align-items: center;
+}
+.wrapper .main .sale_of_scrap .three_boxes .box {
+  display: flex;
+  width: 368px;
+  height: 191px;
+  padding: 39px 41px 43px 20px;
+  border-radius: 15px;
+  background: #D4E5EF;
+  margin-right: 32px;
+}
+.wrapper .main .sale_of_scrap .three_boxes .box .box-texts {
+  margin-left: 15px;
+}
+.wrapper .main .sale_of_scrap .three_boxes .box .box-texts h5 {
+  margin-bottom: 15px;
+  color: #345F99;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.wrapper .main .sale_of_scrap .three_boxes .box .box-texts p {
+  width: 226px;
+  color: #345F99;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 23px;
+}
+.wrapper .main .sale_of_scrap .three_boxes .margin_r {
+  margin-right: 0;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes .metal-catalog_texts {
+  margin-bottom: 45px;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes .metal-catalog_texts .button {
+  margin-right: 29px;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes .metal-catalog_texts .button img {
+  margin-left: 37px;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes .metal-catalog_texts input {
+  display: flex;
+  align-items: center;
+  padding: 18px 0 19px 64px;
+  width: 861.168px;
+  border-radius: 30px;
+  border: 1px solid #D4E5EF;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes .metal-catalog_texts img {
+  top: 20px;
+  right: 90px;
+}
 
 .container {
+  padding: 0;
   width: 1170px;
   margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
