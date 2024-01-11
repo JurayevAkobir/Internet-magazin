@@ -1,7 +1,522 @@
 @use "../abstracts/variables";
 
 .container {
-    padding: 0  ;
+    padding: 0;
     width: 1170px;
     margin: 0 auto;
+}
+
+.wrapper {
+
+
+    // main 
+    .main {
+
+        // first section 
+        .btns_box {
+            padding: 24px 0;
+            background: rgba(204, 223, 236, 0.83);
+
+            .buttons_ {
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+
+                img {
+                    margin-left: 10px;
+                }
+
+                .last-btn {
+                    padding: 3px 13 px;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        // Sale of scrap - section
+        .sale_of_scrap {
+            margin-bottom: 71px;
+
+            .glavniy__ {
+                margin-top: 30px;
+                margin-bottom: 30px;
+                align-items: center;
+
+                .blue_a {
+                    color: variables.$blue;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 21px;
+                }
+
+                .green_a {
+                    margin-left: 15px;
+                    color: #3CA722;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 21px;
+                }
+            }
+
+            .title {
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+
+                h2 {
+                    color: variables.$blue ;
+                    font-size: 40px;
+                    font-weight: 500;
+                    line-height: 60px;
+                }
+            }
+
+            .register_box {
+                margin-top: 66px;
+                padding: 30px;
+                align-items: center;
+                border-radius: 15px;
+                background: #D4E5EF;
+
+                p {
+                    color: variables.$dark_blue;
+                    font-size: 20px;
+                    font-weight: 400;
+                    margin-left: 41px;
+                    margin-right: 45px;
+                }
+
+                .button_four {
+                    margin-left: 127px;
+                    margin-right: 26px;
+                }
+            }
+
+            .three_boxes {
+                margin-top: 51px;
+                display: flex;
+                align-items: center;
+
+                .box {
+                    display: flex;
+                    width: 368px;
+                    height: 191px;
+                    padding: 39px 41px 43px 20px;
+                    border-radius: 15px;
+                    background: #D4E5EF;
+                    margin-right: 32px;
+
+                    .box-texts {
+                        margin-left: 15px;
+
+                        h5 {
+                            margin-bottom: 15px;
+                            color: variables.$blue;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 24px;
+                            text-transform: uppercase;
+                        }
+
+                        p {
+                            width: 226px;
+                            color: variables.$blue;
+                            font-size: 16px;
+                            font-weight: 300;
+                            line-height: 23px;
+                        }
+                    }
+                }
+
+                .margin_r {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        // Metal catalog 
+        .metal-catalog {
+
+            .metal-catalog_boxes_txts {
+                margin-bottom: 90px;
+
+                .metal-catalog_texts {
+                    margin-bottom: 45px;
+
+                    .button {
+                        margin-right: 29px;
+
+                        img {
+                            margin-left: 37px;
+                        }
+                    }
+
+                    input {
+                        display: flex;
+                        align-items: center;
+                        padding: 18px 0 19px 64px;
+                        width: 861.168px;
+                        border-radius: 30px;
+                        border: 1px solid #D4E5EF;
+                    }
+
+                    img {
+                        top: 20px;
+                        right: 90px;
+                    }
+                }
+
+                .metal-catalog_boxes {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(273px, 1fr));
+                    justify-content: space-between;
+                    margin-top: 34px;
+                    gap: 25px;
+
+                    .metal-catalog_box {
+                        width: 273px;
+                        border-radius: 15px;
+                        background: #D4E5EF;
+
+                        .metal-catalog_box-texts {
+                            padding: 45px 32px 50px 21px;
+
+                            h4 {
+                                color: variables.$dark_blue;
+                                font-size: 16px;
+                                font-weight: 700;
+                                margin-bottom: 25px;
+                            }
+
+                            .d-flex {
+                                padding: 0;
+                                align-items: center;
+
+                                .p-one {
+                                    color: #2A5391;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                }
+
+                                .p-two {
+                                    color: #2A5391;
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                }
+                            }
+
+                            h5 {
+                                margin-top: 20px;
+                                color: #2A5391;
+                                font-size: 18px;
+                                font-weight: 400;
+
+                                p {
+                                    color: #3EB10C;
+                                    font-size: 18px;
+                                }
+                            }
+
+                            .d-flex {
+                                align-items: center;
+
+                                .plus-minus {
+                                    margin-left: 10px;
+                                    margin-top: 20px;
+                                    align-items: center;
+
+                                    img {
+                                        margin-top: 0;
+                                    }
+
+                                    .plus {
+                                        margin-left: 6px;
+                                    }
+
+                                    .minus {
+                                        margin-right: 6px;
+                                    }
+
+                                    h5 {
+                                        margin-top: 0;
+                                        padding: 1px 28px;
+                                        border-radius: 30px;
+                                        background: #E5EDF3;
+                                    }
+                                }
+                            }
+
+                            img {
+                                margin-top: 17px;
+                            }
+
+                            .btn-box {
+                                display: flex;
+                                text-align: center;
+                                justify-content: center;
+                                margin-top: 25px;
+                            }
+
+                            .btn-box_2 {
+                                flex-direction: column;
+                                text-align: center;
+                                justify-content: center;
+                                margin-top: 25px;
+
+                                .button_five {
+                                    margin-top: 6px;
+                                    padding: 20px;
+                                    color: #3EB40C;
+                                    line-height: 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .metal-catalog_boxes {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+                    justify-content: space-between;
+                    margin-top: 34px;
+                    gap: 25px;
+
+                    .metal-catalog_box_2 {
+                        width: 260px;
+
+                        .metall-img {
+                            width: 260px;
+                        }
+                    }
+                }
+
+                .button_ {
+                    margin-top: 56px;
+                    padding: 17px 103px;
+                }
+            }
+
+            .menu_ {
+                margin-right: 35px;
+                width: 302px;
+                height: 1132px;
+                border-radius: 15px;
+                background: #D4E5EF;
+                
+                .button_three {
+                    display: flex;
+                    justify-content: start;
+                    width: 100%;
+                }
+
+                h5 {
+                    margin: 37px 0 38px 40px;
+                color: #2A5391;
+                font-size: 16px;
+                font-weight: 400;
+                }
+            }
+        }
+    }
+}
+
+// modal 
+.modal {
+    .modal-dialog {
+        max-width: 780px;
+        width: 100%;
+
+        .modal-content {
+            padding: 50px 44px;
+
+            .modal_body {
+                .modal-title {
+                    text-align: center;
+
+                    h4 {
+                        color: #295491;
+                        font-size: 18px;
+                        font-weight: 700;
+                    }
+
+                    h5 {
+                        margin-top: 20px;
+                        margin-bottom: 4px;
+                    }
+
+                    p {
+                        color: #3EB20C;
+                        margin-bottom: 35px;
+                    }
+                }
+
+                .modal-title_2 {
+                    text-align: center;
+
+                    h5 {
+                        margin-top: 23px;
+                        color: #295491;
+                        font-size: 20px;
+                        font-weight: 700;
+                        line-height: 129.188%;
+                    }
+
+                    .d-flex {
+                        justify-content: center;
+                        h6 {
+                            margin-top: 10px;
+                            margin-bottom: 24px;
+                            display: flex;
+                            color: #023887;
+                            font-size: 20px;
+                            font-weight: 400;
+                            line-height: 91.688%;
+
+                            p {
+                                color: #54BF2A;
+                                font-size: 20px;
+                                font-weight: 400;
+                                line-height: 91.688%;
+                            }
+                        }
+                    }
+
+                    p {
+                        color: #295491;
+                        font-size: 20px;
+                        font-weight: 400;
+                        line-height: 129.188%;
+                    }
+                }
+
+                .modal-inputs {
+                    input {
+                        padding: 19px 0 18px 26px;
+                        border: transparent;
+                        width: 358px;
+                        border-radius: 30px;
+                        background: #D4E5EF;
+                        margin-bottom: 14px;
+
+                        color: #295491;
+                        font-weight: 300;
+                    }
+
+                    .d-flex {
+                        flex-wrap: wrap;
+                        align-items: center;
+
+                        .koz {
+                            top: 9px;
+                            right: 360px;
+                            z-index: 1;
+                        }
+
+                        .skrepka {
+                            top: 19px;
+                            right: 360px;
+                            z-index: 1;
+                        }
+
+                        h5 {
+                            margin-left: 39px;
+                            margin-bottom: 12px;
+                        }
+                    }
+
+                    .button_ {
+                        margin-top: 6px;
+                        margin-bottom: 10px;
+                    }
+
+                    h6 {
+                        display: inline-block;
+                        color: #2A5391;
+                        font-size: 13px;
+                        font-weight: 300;
+
+                        p {
+                            display: inline-block;
+                            color: #3CAF0E;
+                            font-size: 13px;
+                            font-weight: 400;
+                        }
+                    }
+
+                    .h_olti {
+                        margin-bottom: 15px;
+                    }
+                }
+
+                .d-flex_2 {
+                    justify-content: center;
+                    .button {
+                        margin: 20px 0  ;
+                    }
+                }
+
+                h5 {
+                    color: #295491;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 129.188%;
+                }
+
+            }
+        }
+    }
+
+    .modal-dialog_two {
+        max-width: 460px;
+        width: 100%;
+
+        .modal-content {
+            padding: 50px;
+            .modal_header {
+                text-align: end;
+
+                img {
+                    margin-bottom: 20px;
+                }
+            }
+
+            .modal_body {
+                text-align: center;
+                .plus_minus_two {
+                    .plus-minus {
+                        align-items: center;
+                        justify-content: center;
+
+                        h5 {
+                            margin: 10px 6px 20px 6px;
+                            width: 300px;
+                            padding: 10px 28px;
+                            border-radius: 30px;
+                            background: #E5EDF3;
+                        }
+                        img {
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+                
+                .button_ {
+                    padding: 17px 85px;
+                }
+            }
+        }
+    }
+}
+
+
+// media 
+@media (max-width:1190px) {
+    .main {
+        .sale_of_scrap {
+            .three_boxes {
+                overflow-x: scroll;
+
+            }
+        }
+    }
 }

@@ -98,158 +98,26 @@
         }
     }
 
+}
 
-    // main 
-    .main {
 
-        // first section 
-        .btns_box {
-            padding: 24px 0;
-            background: rgba(204, 223, 236, 0.83);
-            .buttons_ {
-                align-items: center;
-                justify-content: space-between;
-                flex-wrap: wrap;
+@media (max-width:1200px) {
+    .header {
+        padding: 40px 0;
 
-                img {
-                    margin-left: 10px;
-                }
+        .nav {
 
-                .last-btn {
-                    padding: 3px 13 px;
-                    border-radius: 50%;
-                }
-            }
-        }
+            .header-links_email {
+                margin-left: 100px;
 
-        // Sale of scrap - section
-        .sale_of_scrap {
-            margin-bottom: 71px;
-            .glavniy__ {
-                margin-top: 30px;
-                margin-bottom: 30px;
-                align-items: center;
+                .header-email {
+                    a {
 
-                .blue_a {
-                    color: variables.$blue;
-                    font-size: 14px;
-                    font-weight: 300;
-                    line-height: 21px;
-                }
-
-                .green_a {
-                    margin-left: 15px;
-                    color: #3CA722;
-                    font-size: 14px;
-                    font-weight: 300;
-                    line-height: 21px;
-                }
-            }
-
-            .title {
-                flex-wrap: wrap;
-                align-items: center;
-                justify-content: space-between;
-
-                h2 {
-                    color: variables.$blue  ;
-                    font-size: 40px;
-                    font-weight: 500;
-                    line-height: 60px;
-                }
-            }
-
-            .register_box {
-                margin-top: 66px;
-                padding: 30px;
-                align-items: center;
-                border-radius: 15px;
-                background: #D4E5EF;
-
-                p {
-                    color: #023887;
-                    font-size: 20px;
-                    font-weight: 400;   
-                    margin-left: 41px;
-                    margin-right: 45px; 
-                }
-
-                .button_four {
-                    margin-left: 127px;
-                    margin-right: 26px;
-                }
-            }
-
-            .three_boxes {
-                margin-top: 51px;
-                display: flex;
-                align-items: center;
-
-                .box {
-                    display: flex;
-                    width: 368px;
-                    height: 191px;
-                    padding: 39px 41px 43px 20px;
-                    border-radius: 15px;
-                    background: #D4E5EF;
-                    margin-right: 32px;
-                    
-                    .box-texts {
-                        margin-left: 15px;
-
-                        h5 {
-                            margin-bottom: 15px;
-                            color: variables.$blue;
-                            font-size: 16px;
-                            font-weight: 500;
-                            line-height: 24px;
-                            text-transform: uppercase;
-                        }
-
-                        p {
-                            width: 226px;
-                            color: variables.$blue;
-                            font-size: 16px;
-                            font-weight: 300;
-                            line-height: 23px;
-                        }
-                    }
-                }
-
-                .margin_r {
-                    margin-right: 0;
-                }
-            }
-        }
-
-        // Metal catalog 
-        .metal-catalog {
-
-            .metal-catalog_boxes {
-                .metal-catalog_texts {
-                    margin-bottom: 45px;    
-                    .button {
-                        margin-right: 29px;
-                        img {
-                            margin-left: 37px;
-                        }
-                    }
-
-                    input {
-                        display: flex;
-                        align-items: center;
-                        padding: 18px 0 19px 64px;
-                        width: 861.168px;
-                        border-radius: 30px;
-                        border: 1px solid #D4E5EF;
-                    }
-
-                    img {
-                        top: 20px;
-                        right: 90px;
+                        margin-right: 78px;
                     }
                 }
             }
+
         }
     }
 }

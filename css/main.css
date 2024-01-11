@@ -106,6 +106,10 @@ body {
   font-weight: 400;
 }
 
+.button_ {
+  padding: 17px 103px;
+}
+
 .button_five {
   padding: 12px 50px 13px 51px;
   border-radius: 30px;
@@ -190,6 +194,24 @@ body {
   line-height: 24px;
   text-decoration-line: underline;
 }
+
+@media (max-width: 1200px) {
+  .header {
+    padding: 40px 0;
+  }
+  .header .nav .header-links_email {
+    margin-left: 100px;
+  }
+  .header .nav .header-links_email .header-email a {
+    margin-right: 78px;
+  }
+}
+.container {
+  padding: 0;
+  width: 1170px;
+  margin: 0 auto;
+}
+
 .wrapper .main .btns_box {
   padding: 24px 0;
   background: rgba(204, 223, 236, 0.83);
@@ -291,16 +313,19 @@ body {
 .wrapper .main .sale_of_scrap .three_boxes .margin_r {
   margin-right: 0;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes .metal-catalog_texts {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts {
+  margin-bottom: 90px;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts {
   margin-bottom: 45px;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes .metal-catalog_texts .button {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts .button {
   margin-right: 29px;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes .metal-catalog_texts .button img {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts .button img {
   margin-left: 37px;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes .metal-catalog_texts input {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts input {
   display: flex;
   align-items: center;
   padding: 18px 0 19px 64px;
@@ -308,13 +333,287 @@ body {
   border-radius: 30px;
   border: 1px solid #D4E5EF;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes .metal-catalog_texts img {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts img {
   top: 20px;
   right: 90px;
 }
-
-.container {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(273px, 1fr));
+  justify-content: space-between;
+  margin-top: 34px;
+  gap: 25px;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box {
+  width: 273px;
+  border-radius: 15px;
+  background: #D4E5EF;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts {
+  padding: 45px 32px 50px 21px;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts h4 {
+  color: #023887;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .d-flex {
   padding: 0;
-  width: 1170px;
-  margin: 0 auto;
+  align-items: center;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .d-flex .p-one {
+  color: #2A5391;
+  font-size: 14px;
+  font-weight: 400;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .d-flex .p-two {
+  color: #2A5391;
+  font-size: 16px;
+  font-weight: 400;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts h5 {
+  margin-top: 20px;
+  color: #2A5391;
+  font-size: 18px;
+  font-weight: 400;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts h5 p {
+  color: #3EB10C;
+  font-size: 18px;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .d-flex {
+  align-items: center;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .d-flex .plus-minus {
+  margin-left: 10px;
+  margin-top: 20px;
+  align-items: center;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .d-flex .plus-minus img {
+  margin-top: 0;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .d-flex .plus-minus .plus {
+  margin-left: 6px;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .d-flex .plus-minus .minus {
+  margin-right: 6px;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .d-flex .plus-minus h5 {
+  margin-top: 0;
+  padding: 1px 28px;
+  border-radius: 30px;
+  background: #E5EDF3;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts img {
+  margin-top: 17px;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .btn-box {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .btn-box_2 {
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .btn-box_2 .button_five {
+  margin-top: 6px;
+  padding: 20px;
+  color: #3EB40C;
+  line-height: 0px;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  justify-content: space-between;
+  margin-top: 34px;
+  gap: 25px;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box_2 {
+  width: 260px;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box_2 .metall-img {
+  width: 260px;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .button_ {
+  margin-top: 56px;
+  padding: 17px 103px;
+}
+.wrapper .main .metal-catalog .menu_ {
+  margin-right: 35px;
+  width: 302px;
+  height: 1132px;
+  border-radius: 15px;
+  background: #D4E5EF;
+}
+.wrapper .main .metal-catalog .menu_ .button_three {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
+.wrapper .main .metal-catalog .menu_ h5 {
+  margin: 37px 0 38px 40px;
+  color: #2A5391;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.modal .modal-dialog {
+  max-width: 780px;
+  width: 100%;
+}
+.modal .modal-dialog .modal-content {
+  padding: 50px 44px;
+}
+.modal .modal-dialog .modal-content .modal_body .modal-title {
+  text-align: center;
+}
+.modal .modal-dialog .modal-content .modal_body .modal-title h4 {
+  color: #295491;
+  font-size: 18px;
+  font-weight: 700;
+}
+.modal .modal-dialog .modal-content .modal_body .modal-title h5 {
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+.modal .modal-dialog .modal-content .modal_body .modal-title p {
+  color: #3EB20C;
+  margin-bottom: 35px;
+}
+.modal .modal-dialog .modal-content .modal_body .modal-title_2 {
+  text-align: center;
+}
+.modal .modal-dialog .modal-content .modal_body .modal-title_2 h5 {
+  margin-top: 23px;
+  color: #295491;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 129.188%;
+}
+.modal .modal-dialog .modal-content .modal_body .modal-title_2 .d-flex {
+  justify-content: center;
+}
+.modal .modal-dialog .modal-content .modal_body .modal-title_2 .d-flex h6 {
+  margin-top: 10px;
+  margin-bottom: 24px;
+  display: flex;
+  color: #023887;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 91.688%;
+}
+.modal .modal-dialog .modal-content .modal_body .modal-title_2 .d-flex h6 p {
+  color: #54BF2A;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 91.688%;
+}
+.modal .modal-dialog .modal-content .modal_body .modal-title_2 p {
+  color: #295491;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 129.188%;
+}
+.modal .modal-dialog .modal-content .modal_body .modal-inputs input {
+  padding: 19px 0 18px 26px;
+  border: transparent;
+  width: 358px;
+  border-radius: 30px;
+  background: #D4E5EF;
+  margin-bottom: 14px;
+  color: #295491;
+  font-weight: 300;
+}
+.modal .modal-dialog .modal-content .modal_body .modal-inputs .d-flex {
+  flex-wrap: wrap;
+  align-items: center;
+}
+.modal .modal-dialog .modal-content .modal_body .modal-inputs .d-flex .koz {
+  top: 9px;
+  right: 360px;
+  z-index: 1;
+}
+.modal .modal-dialog .modal-content .modal_body .modal-inputs .d-flex .skrepka {
+  top: 19px;
+  right: 360px;
+  z-index: 1;
+}
+.modal .modal-dialog .modal-content .modal_body .modal-inputs .d-flex h5 {
+  margin-left: 39px;
+  margin-bottom: 12px;
+}
+.modal .modal-dialog .modal-content .modal_body .modal-inputs .button_ {
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+.modal .modal-dialog .modal-content .modal_body .modal-inputs h6 {
+  display: inline-block;
+  color: #2A5391;
+  font-size: 13px;
+  font-weight: 300;
+}
+.modal .modal-dialog .modal-content .modal_body .modal-inputs h6 p {
+  display: inline-block;
+  color: #3CAF0E;
+  font-size: 13px;
+  font-weight: 400;
+}
+.modal .modal-dialog .modal-content .modal_body .modal-inputs .h_olti {
+  margin-bottom: 15px;
+}
+.modal .modal-dialog .modal-content .modal_body .d-flex_2 {
+  justify-content: center;
+}
+.modal .modal-dialog .modal-content .modal_body .d-flex_2 .button {
+  margin: 20px 0;
+}
+.modal .modal-dialog .modal-content .modal_body h5 {
+  color: #295491;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 129.188%;
+}
+.modal .modal-dialog_two {
+  max-width: 460px;
+  width: 100%;
+}
+.modal .modal-dialog_two .modal-content {
+  padding: 50px;
+}
+.modal .modal-dialog_two .modal-content .modal_header {
+  text-align: end;
+}
+.modal .modal-dialog_two .modal-content .modal_header img {
+  margin-bottom: 20px;
+}
+.modal .modal-dialog_two .modal-content .modal_body {
+  text-align: center;
+}
+.modal .modal-dialog_two .modal-content .modal_body .plus_minus_two .plus-minus {
+  align-items: center;
+  justify-content: center;
+}
+.modal .modal-dialog_two .modal-content .modal_body .plus_minus_two .plus-minus h5 {
+  margin: 10px 6px 20px 6px;
+  width: 300px;
+  padding: 10px 28px;
+  border-radius: 30px;
+  background: #E5EDF3;
+}
+.modal .modal-dialog_two .modal-content .modal_body .plus_minus_two .plus-minus img {
+  margin-bottom: 10px;
+}
+.modal .modal-dialog_two .modal-content .modal_body .button_ {
+  padding: 17px 85px;
+}
+
+@media (max-width: 1190px) {
+  .main .sale_of_scrap .three_boxes {
+    overflow-x: scroll;
+  }
 }/*# sourceMappingURL=main.css.map */
