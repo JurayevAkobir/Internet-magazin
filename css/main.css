@@ -196,14 +196,19 @@ body {
 }
 
 @media (max-width: 1200px) {
-  .header {
-    padding: 40px 0;
-  }
   .header .nav .header-links_email {
-    margin-left: 100px;
+    margin-left: 10px;
   }
-  .header .nav .header-links_email .header-email a {
-    margin-right: 78px;
+  .header .nav .header-links_email .header-email {
+    display: none;
+  }
+  .header .nav .photograph-assessment {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 1020px) {
+  .header .nav .header-links_email {
+    display: none !important;
   }
 }
 .footer {
@@ -348,6 +353,27 @@ body {
 .wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts .button img {
   margin-left: 37px;
 }
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts .dropdown-menu {
+  position: absolute;
+  inset: 0px auto auto 0px;
+  margin: 0px;
+  transform: translate3d(0px, 99px, 0px);
+  width: 302px;
+  padding: 0;
+  border-radius: 15px;
+  background: #D4E5EF;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts .dropdown-menu h5:hover {
+  color: #fff;
+  background: #3EB40C;
+}
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts .dropdown-menu h5 {
+  padding: 13px 0 13px 40px;
+  color: #2A5391;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 30px;
+}
 .wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts input {
   display: flex;
   align-items: center;
@@ -368,7 +394,8 @@ body {
   gap: 25px;
 }
 .wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box {
-  width: 273px;
+  padding: 0;
+  width: 100%;
   border-radius: 15px;
   background: #D4E5EF;
 }
@@ -455,11 +482,6 @@ body {
 .wrapper .main .metal-catalog .metal-catalog_boxes_txts .button_ {
   margin-top: 56px;
   padding: 17px 103px;
-}
-.wrapper .main .metal-catalog .menu_ {
-  padding: 0;
-  border-radius: 15px;
-  background: #D4E5EF;
 }
 .wrapper .main .metal-catalog .menu_ .button_three {
   display: flex;

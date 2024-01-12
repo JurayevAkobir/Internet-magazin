@@ -103,19 +103,32 @@
 
 @media (max-width:1200px) {
     .header {
-        padding: 40px 0;
 
         .nav {
 
             .header-links_email {
-                margin-left: 100px;
+                    margin-left: 10px;
 
                 .header-email {
-                    a {
-
-                        margin-right: 78px;
-                    }
+                    display: none ;
                 }
+            }
+
+
+            .photograph-assessment {
+                margin-left: 10px;
+            }
+
+        }
+    }
+}
+
+@media (max-width:1020px) {
+    .header {
+
+        .nav {
+            .header-links_email {
+                display: none!important;
             }
 
         }

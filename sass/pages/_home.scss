@@ -151,6 +151,32 @@
                         }
                     }
 
+                    .dropdown-menu {
+                        position: absolute;
+                        inset: 0px auto auto 0px;
+                        margin: 0px;
+                        transform: translate3d(0px, 99px, 0px);
+                    
+                        width: 302px;
+                        padding: 0;
+                        border-radius: 15px;
+                        background: #D4E5EF;
+                        h5:hover {
+                            color: variables.$white;
+                            background: variables.$green;
+                        }
+
+        
+                        h5 {
+
+                            padding: 13px 0 13px 40px;
+                            color: #2A5391;
+                            font-size: 16px;
+                            font-weight: 400;
+                            border-radius: 30px;
+                        }
+                    }
+
                     input {
                         display: flex;
                         align-items: center;
@@ -174,7 +200,8 @@
                     gap: 25px;
 
                     .metal-catalog_box {
-                        width: 273px;
+                        padding: 0;
+                        width: 100%;
                         border-radius: 15px;
                         background: #D4E5EF;
 
@@ -296,9 +323,7 @@
             }
 
             .menu_ {
-                padding: 0;
-                border-radius: 15px;
-                background: #D4E5EF;
+                
                 
                 .button_three {
                     display: flex;
