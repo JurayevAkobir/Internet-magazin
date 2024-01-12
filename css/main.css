@@ -206,6 +206,29 @@ body {
     margin-right: 78px;
   }
 }
+.footer {
+  padding: 45px 0;
+  background-color: #335D97;
+}
+.footer .footer_texts h4 {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.footer .footer_texts p {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.footer .footer_texts a {
+  padding-top: 10px;
+  color: #3EB40C;
+}
+.footer .footer_texts .button_three {
+  margin-top: 10px;
+  padding: 10px 60px;
+}
+
 .container {
   padding: 0;
   width: 1170px;
@@ -426,27 +449,15 @@ body {
   color: #3EB40C;
   line-height: 0px;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  justify-content: space-between;
-  margin-top: 34px;
-  gap: 25px;
-}
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box_2 {
-  width: 260px;
-}
 .wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box_2 .metall-img {
-  width: 260px;
+  width: 100%;
 }
 .wrapper .main .metal-catalog .metal-catalog_boxes_txts .button_ {
   margin-top: 56px;
   padding: 17px 103px;
 }
 .wrapper .main .metal-catalog .menu_ {
-  margin-right: 35px;
-  width: 302px;
-  height: 1132px;
+  padding: 0;
   border-radius: 15px;
   background: #D4E5EF;
 }
@@ -455,11 +466,17 @@ body {
   justify-content: start;
   width: 100%;
 }
+.wrapper .main .metal-catalog .menu_ h5:hover {
+  color: #fff;
+  background: #3EB40C;
+}
 .wrapper .main .metal-catalog .menu_ h5 {
-  margin: 37px 0 38px 40px;
+  padding: 13px 0 13px 40px;
+  margin: 37px 0 38px 0px;
   color: #2A5391;
   font-size: 16px;
   font-weight: 400;
+  border-radius: 30px;
 }
 
 .modal .modal-dialog {

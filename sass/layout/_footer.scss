@@ -1,1 +1,29 @@
 @use "../abstracts/variables";
+
+
+.footer {
+    padding: 45px 0;
+    background-color: #335D97;
+    .footer_texts {
+        h4 {
+            color: variables.$white;
+            font-weight: 500;
+            margin-bottom: 24px;
+        }
+
+        p {
+            color: variables.$white;
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        a {
+            padding-top: 10px;
+            color: variables.$green;
+        }
+        .button_three {
+            margin-top: 10px;
+            padding: 10px 60px;
+        }
+    }
+}
