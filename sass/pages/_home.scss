@@ -513,7 +513,11 @@
 @media (max-width:1190px) {
     .main {
         .sale_of_scrap {
+            .three_boxes::-webkit-scrollbar {
+                display: none;
+              }
             .three_boxes {
+
                 overflow-x: scroll;
 
             }
