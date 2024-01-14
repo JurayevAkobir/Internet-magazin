@@ -189,8 +189,9 @@
                 }
 
                 .metal-catalog-boxes {
+                    gap: 25px;
 
-                    .metal-catalog-boxx {
+                    .metal-catalog-box {
                         padding: 0;
                         border-radius: 15px;
                         background: #D4E5EF;    
@@ -292,12 +293,8 @@
                     
                 }
 
-                .metal-catalog_boxes {
-                    // display: grid;
-                    // grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-                    // justify-content: space-between;
-                    // margin-top: 34px;
-                    // gap: 25px;
+                .metal-catalog-boxes {
+                    
 
                     .metal-catalog_box_2 {
 

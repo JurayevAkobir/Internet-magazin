@@ -384,97 +384,92 @@ body {
   top: 20px;
   right: 90px;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(273px, 1fr));
-  justify-content: space-between;
-  margin-top: 34px;
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog-boxes {
   gap: 25px;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog-boxes .metal-catalog-box {
   padding: 0;
-  width: 100%;
   border-radius: 15px;
   background: #D4E5EF;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog-boxes .metal-catalog-box .metal-catalog_box-texts {
   padding: 45px 32px 50px 21px;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts h4 {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog-boxes .metal-catalog-box .metal-catalog_box-texts h4 {
   color: #023887;
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 25px;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .d-flex {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog-boxes .metal-catalog-box .metal-catalog_box-texts .d-flex {
   padding: 0;
   align-items: center;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .d-flex .p-one {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog-boxes .metal-catalog-box .metal-catalog_box-texts .d-flex .p-one {
   color: #2A5391;
   font-size: 14px;
   font-weight: 400;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .d-flex .p-two {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog-boxes .metal-catalog-box .metal-catalog_box-texts .d-flex .p-two {
   color: #2A5391;
   font-size: 16px;
   font-weight: 400;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts h5 {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog-boxes .metal-catalog-box .metal-catalog_box-texts h5 {
   margin-top: 20px;
   color: #2A5391;
   font-size: 18px;
   font-weight: 400;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts h5 p {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog-boxes .metal-catalog-box .metal-catalog_box-texts h5 p {
   color: #3EB10C;
   font-size: 18px;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .d-flex {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog-boxes .metal-catalog-box .metal-catalog_box-texts .d-flex {
   align-items: center;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .d-flex .plus-minus {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog-boxes .metal-catalog-box .metal-catalog_box-texts .d-flex .plus-minus {
   margin-left: 10px;
   margin-top: 20px;
   align-items: center;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .d-flex .plus-minus img {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog-boxes .metal-catalog-box .metal-catalog_box-texts .d-flex .plus-minus img {
   margin-top: 0;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .d-flex .plus-minus .plus {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog-boxes .metal-catalog-box .metal-catalog_box-texts .d-flex .plus-minus .plus {
   margin-left: 6px;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .d-flex .plus-minus .minus {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog-boxes .metal-catalog-box .metal-catalog_box-texts .d-flex .plus-minus .minus {
   margin-right: 6px;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .d-flex .plus-minus h5 {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog-boxes .metal-catalog-box .metal-catalog_box-texts .d-flex .plus-minus h5 {
   margin-top: 0;
   padding: 1px 28px;
   border-radius: 30px;
   background: #E5EDF3;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts img {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog-boxes .metal-catalog-box .metal-catalog_box-texts img {
   margin-top: 17px;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .btn-box {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog-boxes .metal-catalog-box .metal-catalog_box-texts .btn-box {
   display: flex;
   text-align: center;
   justify-content: center;
   margin-top: 25px;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .btn-box_2 {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog-boxes .metal-catalog-box .metal-catalog_box-texts .btn-box_2 {
   flex-direction: column;
   text-align: center;
   justify-content: center;
   margin-top: 25px;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box .metal-catalog_box-texts .btn-box_2 .button_five {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog-boxes .metal-catalog-box .metal-catalog_box-texts .btn-box_2 .button_five {
   margin-top: 6px;
   padding: 20px;
   color: #3EB40C;
   line-height: 0px;
 }
-.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_boxes .metal-catalog_box_2 .metall-img {
+.wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog-boxes .metal-catalog_box_2 .metall-img {
   width: 100%;
 }
 .wrapper .main .metal-catalog .metal-catalog_boxes_txts .button_ {
