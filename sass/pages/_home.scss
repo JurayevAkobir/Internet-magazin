@@ -27,7 +27,7 @@
                 }
 
                 .last-btn {
-                    padding: 3px 13 px;
+                    padding: 3px 13px;
                     border-radius: 50%;
                 }
             }
@@ -141,6 +141,8 @@
                 margin-bottom: 90px;
 
                 .metal-catalog_texts {
+                    display: flex;
+                    flex-wrap: wrap;
                     margin-bottom: 45px;
 
                     .button {
@@ -152,23 +154,17 @@
                     }
 
                     .dropdown-menu {
-                        position: absolute;
-                        inset: 0px auto auto 0px;
-                        margin: 0px;
-                        transform: translate3d(0px, 99px, 0px);
-                    
                         width: 302px;
                         padding: 0;
                         border-radius: 15px;
                         background: #D4E5EF;
+
                         h5:hover {
                             color: variables.$white;
                             background: variables.$green;
                         }
 
-        
                         h5 {
-
                             padding: 13px 0 13px 40px;
                             color: #2A5391;
                             font-size: 16px;
@@ -323,8 +319,8 @@
             }
 
             .menu_ {
-                
-                
+
+
                 .button_three {
                     display: flex;
                     justify-content: start;
@@ -392,6 +388,7 @@
 
                     .d-flex {
                         justify-content: center;
+
                         h6 {
                             margin-top: 10px;
                             margin-bottom: 24px;
@@ -479,8 +476,9 @@
 
                 .d-flex_2 {
                     justify-content: center;
+
                     .button {
-                        margin: 20px 0  ;
+                        margin: 20px 0;
                     }
                 }
 
@@ -501,6 +499,7 @@
 
         .modal-content {
             padding: 50px;
+
             .modal_header {
                 text-align: end;
 
@@ -511,6 +510,7 @@
 
             .modal_body {
                 text-align: center;
+
                 .plus_minus_two {
                     .plus-minus {
                         align-items: center;
@@ -523,12 +523,13 @@
                             border-radius: 30px;
                             background: #E5EDF3;
                         }
+
                         img {
                             margin-bottom: 10px;
                         }
                     }
                 }
-                
+
                 .button_ {
                     padding: 17px 85px;
                 }
@@ -541,14 +542,175 @@
 // media 
 @media (max-width:1190px) {
     .main {
+
+        .btns_box {
+            .buttons_ {
+                display: flex !important;
+                justify-content: center !important;
+
+                .button_two {
+                    margin-right: 10px;
+                }
+
+                .button_three,
+                .last-btn {
+                    display: none;
+                }
+            }
+        }
+
         .sale_of_scrap {
             .three_boxes::-webkit-scrollbar {
                 display: none;
-              }
+            }
+
             .three_boxes {
 
                 overflow-x: scroll;
 
+            }
+
+            .register_box {
+                display: none !important;
+            }
+        }
+    }
+}
+
+@media (max-width:1140px) {
+    .main {
+        .metal-catalog {
+            .metal-catalog_boxes_txts {
+                .metal-catalog_texts {
+                    input {
+                        margin-top: 12px;
+                    }
+
+                    img {
+                        top: 80px !important;
+                        right: 14% !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:992px) {
+    .main {
+
+        .metal-catalog {
+            .metal-catalog_boxes_txts {
+                .metal-catalog_texts {
+                    input {
+                        margin-top: 12px;
+                    }
+
+                    img {
+                        top: 80px !important;
+                        right: 4% !important;
+                    }
+                }
+               
+            }
+        }
+
+        .btns_box {
+            .buttons_ {
+                display: flex !important;
+                justify-content: start !important;
+
+                .button_two {
+                    margin-top: 10px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:730px) {
+    .metal-catalog {
+        .metal-catalog_boxes_txts {
+            .metal-catalog_texts {
+                display: flex !important;
+                flex-wrap: wrap !important;
+                input {
+                    margin-top: 12px;
+                }
+
+                img {
+                    top: 80px !important;
+                    right: 4% !important;
+                }
+            }
+           
+        }
+    }
+
+    .sale_of_scrap {
+        .title {
+            img {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width:580px) {
+    .container {
+        margin: 0 15px;
+    }
+
+    .metal-catalog {
+        .metal-catalog_boxes_txts {
+            .metal-catalog_texts {
+                flex-direction: column !important;
+                input {
+                    margin-top: 12px;
+                }
+            }
+            .register_box {
+                .d-none {
+                    margin-top: 67px;
+
+                    .d-flex {
+                        margin-left: 31px;
+                        flex-wrap: wrap;
+
+                        p {
+                            width: 230px;
+
+                            img {
+                                margin-left: 20px;
+                            }
+                        }
+
+                       
+                    }
+                }
+                .d-none {
+                    width: 100%;
+                    margin-top: 19px ;
+                }
+            }
+        }
+    }
+
+    .btns_box {
+        display: none !important;
+    }
+}
+
+@media (max-width:390px) {
+    .metal-catalog_boxes_txts {
+        .button {
+            width: 100%;
+        }
+
+        .register_box {
+            .d-none {
+                display: flex !important;
             }
         }
     }

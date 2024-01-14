@@ -253,7 +253,7 @@ body {
   margin-left: 10px;
 }
 .wrapper .main .btns_box .buttons_ .last-btn {
-  padding: 3px 13 px;
+  padding: 3px 13px;
   border-radius: 50%;
 }
 .wrapper .main .sale_of_scrap {
@@ -345,6 +345,8 @@ body {
   margin-bottom: 90px;
 }
 .wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts {
+  display: flex;
+  flex-wrap: wrap;
   margin-bottom: 45px;
 }
 .wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts .button {
@@ -354,10 +356,6 @@ body {
   margin-left: 37px;
 }
 .wrapper .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts .dropdown-menu {
-  position: absolute;
-  inset: 0px auto auto 0px;
-  margin: 0px;
-  transform: translate3d(0px, 99px, 0px);
   width: 302px;
   padding: 0;
   border-radius: 15px;
@@ -652,10 +650,105 @@ body {
 }
 
 @media (max-width: 1190px) {
+  .main .btns_box .buttons_ {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .main .btns_box .buttons_ .button_two {
+    margin-right: 10px;
+  }
+  .main .btns_box .buttons_ .button_three,
+  .main .btns_box .buttons_ .last-btn {
+    display: none;
+  }
   .main .sale_of_scrap .three_boxes::-webkit-scrollbar {
     display: none;
   }
   .main .sale_of_scrap .three_boxes {
     overflow-x: scroll;
+  }
+  .main .sale_of_scrap .register_box {
+    display: none !important;
+  }
+}
+@media (max-width: 1140px) {
+  .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts input {
+    margin-top: 12px;
+  }
+  .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts img {
+    top: 80px !important;
+    right: 14% !important;
+  }
+}
+@media (max-width: 992px) {
+  .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts input {
+    margin-top: 12px;
+  }
+  .main .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts img {
+    top: 80px !important;
+    right: 4% !important;
+  }
+  .main .btns_box .buttons_ {
+    display: flex !important;
+    justify-content: start !important;
+  }
+  .main .btns_box .buttons_ .button_two {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 730px) {
+  .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts input {
+    margin-top: 12px;
+  }
+  .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts img {
+    top: 80px !important;
+    right: 4% !important;
+  }
+  .sale_of_scrap .title img {
+    display: none;
+  }
+}
+@media (max-width: 580px) {
+  .container {
+    margin: 0 15px;
+  }
+  .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts {
+    flex-direction: column !important;
+  }
+  .metal-catalog .metal-catalog_boxes_txts .metal-catalog_texts input {
+    margin-top: 12px;
+  }
+  .metal-catalog .metal-catalog_boxes_txts .register_box .d-none {
+    margin-top: 67px;
+  }
+  .metal-catalog .metal-catalog_boxes_txts .register_box .d-none .d-flex {
+    margin-left: 31px;
+    flex-wrap: wrap;
+  }
+  .metal-catalog .metal-catalog_boxes_txts .register_box .d-none .d-flex p {
+    width: 230px;
+  }
+  .metal-catalog .metal-catalog_boxes_txts .register_box .d-none .d-flex p img {
+    margin-left: 20px;
+  }
+  .metal-catalog .metal-catalog_boxes_txts .register_box .d-none {
+    width: 100%;
+    margin-top: 19px;
+  }
+  .btns_box {
+    display: none !important;
+  }
+}
+@media (max-width: 390px) {
+  .metal-catalog_boxes_txts .button {
+    width: 100%;
+  }
+  .metal-catalog_boxes_txts .register_box .d-none {
+    display: flex !important;
   }
 }/*# sourceMappingURL=main.css.map */
